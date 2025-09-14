@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="kr"></html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-compitable" content="IE-edge">
+  <meta name="viewport" content="width=device-width", initial-scale="1.0">
+  <title>m</title>
+  <link href="m.css" rel="stylesheet">
+  <script type="text/javascript">
+    document.oncontextmenu = function(){return false;}
+    function redirectToRandomPage() { 
+            // Array of specific pages on the website 
+            const pages = [ 
+                'index3.html', 
+                'index10.html', 
+                'index17.html', 
+                'index24.html' 
+            ]; 
+            // Generate a random index 
+            const randomIndex = Math.floor(Math.random() * pages.length); 
+            // Redirect to the randomly selected page 
+            window.location.href = pages[randomIndex]; 
+    }
+  </script>
+</head>
+<body oncontextmenu="return false" onselectstart="return false" ondragstart="return false" onkeydown="return false">
+  <div class="box-container">
+      <div class="box-item1">
+        <div class="map">
+          <a onclick="redirectToRandomPage()">
+            <img src="./img/m-3@72x.png" alt="맵">
+          </a>
+          <p style="color: white;">사이보그 이해하기</p>
+          <div class="comment">
+            <p style="color: white;">영화 &lt;싸이보그지만 괜찮아&gt;(2006)로 사유하는 ‘사이보그 이해하기’. 고통, 광기 그리고 이해를 통해.</p>
+          </div>
+      </div>
+    </div>
+    <div class="box-item2">
+      <img class="img" src="./img/ahxlqmrmfTMrl-wjddus.png">
+    </div>
+    <div class="box-item3">
+      <a href="a3.html">
+        <img class="link1" src="./img/qlwma.png"></a>
+        <span class="text1">a. 웹 소개</span>
+      <a href="f3.html">
+        <img class="link2" src="./img/qlwmf.png"></a>
+        <span class="text2">f. 현실과<br>픽션 엮기</span>
+    </div>
+  </div>
+</body>
