@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="kr"></html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-compitable" content="IE-edge">
+  <meta name="viewport" content="width=device-width", initial-scale="1.0">
+  <title>e</title>
+  <link href="e.css" rel="stylesheet">
+  <script type="text/javascript">
+    document.oncontextmenu = function(){return false;}
+    function redirectToRandomPage() { 
+            // Array of specific pages on the website 
+            const pages = [ 
+                'index4.html', 
+                'index11.html', 
+                'index18.html', 
+                'index25.html' 
+            ]; 
+            // Generate a random index 
+            const randomIndex = Math.floor(Math.random() * pages.length); 
+            // Redirect to the randomly selected page 
+            window.location.href = pages[randomIndex]; 
+    }
+  </script>
+</head>
+<body oncontextmenu="return false" onselectstart="return false" ondragstart="return false" onkeydown="return false">
+  <div class="box-container">
+      <div class="box-item1">
+        <div class="map">
+          <a onclick="redirectToRandomPage()">
+            <img src="./img/e-4@72x.png" alt="맵">
+          </a>
+          <p>그 자체로 신성한 것은 없다 </p>
+          <div class="comment">
+            <p>대상, 공간, 신체는 그 자체로 신성하지 않다는 사이보그 선언문의 구절을 모티브로 작성했다.</p>
+          </div>
+      </div>
+    </div>
+    <div class="box-item2">
+      <img class="img" src="./img/ahxlqmrmfTmrl-cotmf.png">
+    </div>
+    <div class="box-item3">
+      <a href="a4.html">
+        <img class="link1" src="./img/qlwma.png"></a>
+        <span class="text1">a. 웹 소개</span>
+      <a href="h4.html">
+        <img class="link2" src="./img/qlwmh.png"></a>
+        <span class="text2">h. 논문 발췌</span>
+      <a href="i4.html">
+        <img class="link3" src="./img/qlwmi.png"></a>
+        <span class="text3">i. 집적회로<br>속의 여성들</span>
+    </div>
+  </div>
+</body>

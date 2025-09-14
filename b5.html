@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="kr"></html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-compitable" content="IE-edge">
+  <meta name="viewport" content="width=device-width", initial-scale="1.0">
+  <title>b</title>
+  <link href="b.css" rel="stylesheet">
+  <script type="text/javascript">
+    document.oncontextmenu = function(){return false;}
+    function redirectToRandomPage() { 
+            // Array of specific pages on the website 
+            const pages = [ 
+                'index5.html', 
+                'index12.html', 
+                'index19.html', 
+                'index26.html'
+            ]; 
+            // Generate a random index 
+            const randomIndex = Math.floor(Math.random() * pages.length); 
+            // Redirect to the randomly selected page 
+            window.location.href = pages[randomIndex]; 
+    }
+      function changeBackgroundColor() {
+    const randomColor = '#' + Math.floor(Math.random()*16777215).toString(16);
+    document.body.style.backgroundColor = randomColor;
+  }
+
+  setInterval(changeBackgroundColor, 300);
+  </script>
+</head>
+<body oncontextmenu="return false" onselectstart="return false" ondragstart="return false" onkeydown="return false">
+  <div class="box-container">
+      <div class="box-item1">
+        <div class="map">
+          <a onclick="redirectToRandomPage()">
+            <img src="./img/b-5@72x.png" alt="맵">
+          </a>
+          <p>키메라 퍼레이드</p>
+          <div class="comment">
+            <p>키메라는 해러웨이의 사이보그 선언문에서 경계를 허물고 다른 종들과 섞이는 사이보그적 존재를 의미한다. 전시 공간에 비치된 종이를 통해 키메라 퍼레이드에 동참할 수 있다.</p>
+          </div>
+      </div>
+    </div>
+    <div class="box-item2">
+      <img class="parade" src="./img/zlapfk_vjfpdlem.png">
+    </div>
+    <div class="box-item3">
+      <a href="g5.html">
+        <img class="link1" src="./img/qlwmg.png"></a>
+        <span class="text1">g. 우리는<br>부활이 아닌<br>재생을 요구한다</span>
+      <a href="l5.html">
+        <img class="link2" src="./img/qlwml.png"></a>
+        <span class="text2">l. 사이보그적 존재들의 확장된 신체</span>
+      <a href="q5.html">
+        <img class="link3" src="./img/qlwmq.png"></a>
+        <span class="text3">q. 경계 위에<br>놓인 존재</span>
+    </div>
+  </div>
+</body>

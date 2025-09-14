@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="kr"></html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-compitable" content="IE-edge">
+  <meta name="viewport" content="width=device-width", initial-scale="1.0">
+  <title>a</title>
+  <link href="a.css" rel="stylesheet">
+  <script type="text/javascript">
+    document.oncontextmenu = function(){return false;}
+    function redirectToRandomPage() { 
+            // Array of specific pages on the website 
+            const pages = [ 
+                'index5.html', 
+                'index12.html', 
+                'index19.html', 
+                'index26.html' 
+            ]; 
+            // Generate a random index 
+            const randomIndex = Math.floor(Math.random() * pages.length); 
+            // Redirect to the randomly selected page 
+            window.location.href = pages[randomIndex]; 
+    }
+  </script>
+</head>
+<body oncontextmenu="return false" onselectstart="return false" ondragstart="return false" onkeydown="return false">
+  <div class="box-container">
+      <div class="box-item1">
+        <div class="map">
+          <a onclick="redirectToRandomPage()">
+            <img src="./img/a-5@72x.png" alt="맵">
+          </a>
+          <p style="color: white;">웹 소개</p>
+      </div>
+    </div>
+    <div class="box-item2">
+      <img class="img" src="./img/dnpqthro.png">
+    </div>
+    <div class="box-item3">
+      <a href="e5.html">
+        <img class="link1" src="./img/qlwme.png"></a>
+        <span class="text1">e. 그 자체로<br>신성한 것은<br>없다 </span>
+      <a href="g5.html">
+        <img class="link2" src="./img/qlwmg.png"></a>
+        <span class="text2">g. 우리는<br>부활이 아닌<br>재생을 요구한다</span>
+      <a href="k5.html">
+        <img class="link3" src="./img/qlwmk.png"></a>
+        <span class="text3">k. 사이보그적<br>존재들의<br>실뜨기 놀이</span>
+      <a href="m5.html">
+        <img class="link4" src="./img/qlwmm.png"></a>
+        <span class="text4">m. 사이보그<br>이해하기</span>
+      <a href="o5.html">
+        <img class="link5" src="./img/qlwmo.png"></a>
+        <span class="text5">o. 현실은 픽션이고,<br>픽션은 현실이다.</span>
+    </div>
+  </div>
+</body>
