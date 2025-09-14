@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="kr"></html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-compitable" content="IE-edge">
+  <meta name="viewport" content="width=device-width", initial-scale="1.0">
+  <title>o</title>
+  <link href="o.css" rel="stylesheet">
+  <script type="text/javascript">
+    document.oncontextmenu = function(){return false;}
+    function redirectToRandomPage() { 
+            // Array of specific pages on the website 
+            const pages = [ 
+                'index3.html', 
+                'index10.html', 
+                'index17.html', 
+                'index24.html' 
+            ]; 
+            // Generate a random index 
+            const randomIndex = Math.floor(Math.random() * pages.length); 
+            // Redirect to the randomly selected page 
+            window.location.href = pages[randomIndex]; 
+    }
+  </script>
+</head>
+<body oncontextmenu="return false" onselectstart="return false" ondragstart="return false" onkeydown="return false">
+  <div class="box-container">
+      <div class="box-item1">
+        <div class="map">
+          <a onclick="redirectToRandomPage()">
+            <img src="./img/o-3@72x.png" alt="맵">
+          </a>
+          <p style="color: white;">현실은 픽션이고,<br>픽션은 현실이다.</p>
+          <div class="comment">
+            <p style="color: white;">현실과 픽션 엮기 페이지의 작업 비하인드 글. 현실과 픽션을 엮는 법, 픽션의 힘, 이미지 스토리텔링에 관하여 이야기한다.</p>
+          </div>
+      </div>
+    </div>
+    <div class="box-item2">
+      <img class="img" src="./img/ahxlqmrmfTMrl-rkdmf.png">
+    </div>
+    <div class="box-item3">
+      <a href="a3.html">
+        <img class="link1" src="./img/qlwma.png"></a>
+        <span class="text1">a. 웹소개</span>
+      <a href="d3.html">
+        <img class="link2" src="./img/qlwmd.png"></a>
+        <span class="text2">d. 픽션 속<br>사이보그적 여성</span>
+      <a href="f3.html">
+        <img class="link3" src="./img/qlwmf.png"></a>
+        <span class="text3">f. 현실과<br>픽션 엮기</span>
+      <a href="n3.html">
+        <img class="link4" src="./img/qlwmn.png"></a>
+        <span class="text4">n. 역사 속<br>사이보그적 여성</span>
+    </div>
+  </div>
+</body>

@@ -1,0 +1,153 @@
+html, body {
+  background-image: url(./img/홈8.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  margin: 0;
+  font-family: 'DX타자Medium';
+}
+
+@font-face {
+  font-family: "DX타자Medium";
+  src: url("./font/DX타자Medium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.title {
+  font-weight: lighter;
+  font-size:xx-large;
+  color: white;
+  text-align: center;
+  margin-top: 10%;
+  line-height: 130%;
+}
+
+.a{
+  position: absolute;
+  left: 30%;
+  top: 65%;
+  transform: translate(-50%, -50%);
+}
+
+.b{
+  position: absolute;
+  left: 39%;
+  top: 58%;
+  transform: translate(-50%, -50%);
+}
+
+.c{
+  position: absolute;
+  left: 47%;
+  top: 55%;
+  transform: translate(-50%, -50%);
+}
+
+.d{
+  position: absolute;
+  left: 40%;
+  top: 74%;
+  transform: translate(-50%, -50%);
+}
+
+.e{
+  position: absolute;
+  left: 43%;
+  top: 75%;
+  transform: translate(-50%, -50%);
+}
+
+.f{
+  position: absolute;
+  left: 47%;
+  top: 76%;
+  transform: translate(-50%, -50%);
+}
+
+.g{
+  position: absolute;
+  left: 57%;
+  top: 85%;
+  transform: translate(-50%, -50%);
+}
+
+.h{
+  position: absolute;
+  left: 77%;
+  top: 56%;
+  transform: translate(-50%, -50%);
+}
+
+.i{
+  position: absolute;
+  left: 66%;
+  top: 54%;
+  transform: translate(-50%, -50%);
+}
+
+.j{
+  position: absolute;
+  left: 55%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.k{
+  position: absolute;
+  left: 52%;
+  top: 51%;
+  transform: translate(-50%, -50%);
+}
+
+.l{
+  position: absolute;
+  left: 41%;
+  top: 47%;
+  transform: translate(-50%, -50%);
+}
+
+.m{
+  position: absolute;
+  left: 59%;
+  top: 62%;
+  transform: translate(-50%, -50%);
+}
+
+.n{
+  position: absolute;
+  left: 62%;
+  top: 64%;
+  transform: translate(-50%, -50%);
+}
+
+.o{
+  position: absolute;
+  left: 67%;
+  top: 69%;
+  transform: translate(-50%, -50%);
+}
+
+.p{
+  position: absolute;
+  left: 46%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+}
+
+.q{
+  position: absolute;
+  left: 34%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+}
+
+.button{
+  position:absolute;
+  left: 50%;
+  top: 90%;
+  transform: translate(-50%, -50%);
+}

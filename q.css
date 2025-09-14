@@ -1,0 +1,145 @@
+html, body{
+  font-family: 'DX타자Medium';
+  height: 100%;
+  overflow:hidden;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "DX타자Medium";
+  src: url("./font/DX타자Medium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.box-container {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 250px auto 250px; /* 각 행(세로줄)의 길이 */
+  grid-template-rows: auto; /* 각 열(가로줄)의 길이 */
+}
+.box-item1 {
+  background: rgb(245, 245, 245);
+  width: 100%;
+  height: 100%;
+  font-size: large;
+  text-align: center;
+}
+
+.comment {
+  position: fixed;
+  width: 200px;
+  height: auto;
+  bottom: 5px;
+  text-align: left;
+  left: 25px;
+  line-height: 160%;
+}
+
+.box-item2 {
+  background: rgb(245, 245, 245);
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  text-align: center;
+}
+
+.container {
+  width: 70%;
+  height: auto;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 150px;
+  text-align: left;
+  line-height: 160%;
+}
+
+.question {
+  margin-left: 20px;
+}
+
+.box-item3 {
+  background: rgb(245, 245, 245);
+  width: 100%;
+  height: 100%;
+  font-size: smaller;
+  text-align: center;
+}
+
+.link1 {
+  width: 100px;
+  height: auto;
+  position: fixed;
+  right: 40px;
+  bottom: 330px;
+}
+
+.text1 {
+  width: 100px;
+  height: auto;
+  position: fixed;
+  right: 110px;
+  bottom: 360px;
+  text-align: left;
+}
+
+.link2 {
+  width: 100px;
+  height: auto;
+  position: fixed;
+  right: 140px;
+  bottom: 230px;
+}
+
+.text2 {
+  width: 100px;
+  height: auto;
+  position: fixed;
+  right: 30px;
+  bottom: 270px;
+  text-align: left;
+}
+
+.link3 {
+  width: 100px;
+  height: auto;
+  position: fixed;
+  right: 30px;
+  bottom: 130px;
+}
+
+.text3 {
+  width: 100px;
+  height: auto;
+  position: fixed;
+  right: 120px;
+  bottom: 170px;
+  text-align: left;
+}
+
+.link4 {
+  width: 100px;
+  height: auto;
+  position: fixed;
+  right: 140px;
+  bottom: 30px;
+}
+
+.text4 {
+  width: 110px;
+  height: auto;
+  position: fixed;
+  right: 20px;
+  bottom: 65px;
+  text-align: left;
+}
+
+.map {
+  width: 200px;
+  object-fit: cover;
+  position: fixed;
+  left: 25px;
+  top: 25px;
+}
